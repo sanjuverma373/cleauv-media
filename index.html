@@ -1,0 +1,853 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cleauv media</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+    integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
+    integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="sec-flow">
+  <!-- priloder -->
+  <div class="loader_bg">
+    <div class="loader"><img src="./assets/images/nav-logo.png" alt=""></div>
+  </div>
+  <!-------------------------------------nav section ------------------------------------->
+  <nav class="py-4  bg-lightblack">
+    <div class="container my-container">
+      <div class="d-flex align-items-center justify-content-between position-relative">
+        <div class=" d-flex align-items-center justify-content-center">
+          <img src="./assets/images/nav-logo.png" alt="">
+        </div>
+        <label id="menuIcon">
+          <span class="cross-4"></span>
+          <span class="cross-5"></span>
+          <span class="cross-6"></span>
+        </label>
+        <ul class="d-flex align-items-center justify-content-center gap-5 mb-0 nav-box " id="nav-bar">
+          <li><a class="d-block d-lg-none " href=""><svg xmlns="http://www.w3.org/2000/svg" width="231" height="26" viewBox="0 0 231 26" fill="none">
+            <path d="M197.104 0.363157C196.706 0.428493 196.683 0.842291 196.683 5.41582C196.683 8.63907 196.589 10.4467 196.448 10.5338C196.308 10.6209 195.722 10.2725 195.137 9.77156C194.551 9.27065 193.474 8.59551 192.748 8.29061C191.553 7.76792 191.155 7.70259 188.719 7.70259C186.189 7.70259 185.932 7.74614 184.48 8.37773C182.489 9.27065 181.247 10.316 180.334 11.8841C179.374 13.5828 179.069 14.7807 179.069 16.7408C179.069 18.6355 179.374 19.9204 180.24 21.3796C180.966 22.621 183.238 24.6682 183.73 24.494C183.918 24.4286 184.011 24.4504 183.941 24.5375C183.754 24.8207 185.206 25.3869 186.822 25.6918C188.672 26.0185 191.53 25.8443 193.076 25.2998C194.621 24.7335 196.495 23.5357 196.308 23.2308C196.214 23.0784 196.261 23.0566 196.401 23.1437C196.753 23.3397 198.416 21.0094 198.228 20.552C198.158 20.356 198.182 20.2689 198.322 20.3342C198.463 20.3996 198.58 20.3342 198.603 20.1818C198.65 19.6809 198.72 19.4849 198.908 19.0711C199.001 18.8751 199.025 18.4395 198.978 18.1564C198.908 17.8515 198.954 17.6119 199.048 17.6119C199.165 17.6119 199.259 13.7353 199.259 9.00931C199.259 0.972961 199.236 0.406713 198.861 0.384935C198.627 0.384935 198.228 0.341377 197.971 0.319599C197.713 0.297821 197.315 0.319599 197.104 0.363157ZM191.483 9.98935C194.785 10.7952 196.847 13.67 196.636 17.1763C196.495 19.1146 195.839 20.5738 194.504 21.8152C193.005 23.209 191.811 23.6011 189.07 23.6011C186.986 23.6011 186.588 23.5357 185.534 23.013C184.901 22.7081 183.988 22.0548 183.519 21.5756C183.051 21.0965 182.629 20.748 182.559 20.7916C182.512 20.8352 182.465 20.748 182.442 20.6174C182.442 20.4649 182.208 19.7462 181.95 19.0275C181.599 18.0257 181.528 17.3506 181.599 16.1963C181.763 13.9749 181.786 13.9095 181.95 13.9095C182.044 13.9095 182.231 13.6264 182.395 13.2562C182.77 12.385 185.417 10.1418 186.143 10.0547C186.33 10.0329 186.962 9.92402 187.548 9.81512C188.649 9.59734 190.148 9.66267 191.483 9.98935Z" fill="#FAFAFA"/>
+            <path d="M204.271 1.06007C203.662 1.27786 203.007 2.10545 203.007 2.62814C203.007 3.2815 203.498 4.04375 204.107 4.3051C204.927 4.65356 205.442 4.61 206.145 4.08731C206.637 3.73885 206.754 3.45573 206.754 2.71525C206.754 1.38675 205.56 0.602716 204.271 1.06007Z" fill="#FAFAFA"/>
+            <path d="M23.5933 14.6716V25.4739L24.8346 25.4085L26.0526 25.3432V14.6716V4.00006L24.8346 3.93472L23.5933 3.86939V14.6716Z" fill="#FAFAFA"/>
+            <path d="M8.36896 7.659C3.14583 8.26881 -0.367479 12.3632 0.0306963 17.3941C0.194651 19.4195 0.733359 20.9005 1.90446 22.3596C2.77108 23.4704 4.83222 24.9295 5.67542 25.0602C5.93306 25.1038 6.21413 25.2126 6.30781 25.3215C6.4015 25.4522 6.86994 25.5393 7.38523 25.5393C7.90052 25.5611 8.27527 25.6264 8.205 25.7136C8.04105 25.9967 11.4372 25.8878 12.8192 25.5829C14.8334 25.1473 17.4567 23.7317 17.1288 23.2526C17.0585 23.1437 17.1288 23.0783 17.3162 23.1001C17.4801 23.1437 17.5973 23.0348 17.5504 22.8823C17.527 22.7081 17.5973 22.6428 17.7144 22.7299C18.136 22.9477 19.8692 19.964 19.5179 19.6373C19.2602 19.3977 17.1757 19.5937 16.9883 19.8551C16.8946 19.9858 16.8712 20.16 16.918 20.2253C16.9649 20.2907 16.3559 20.944 15.5595 21.6627C14.4353 22.6863 13.8263 23.0566 12.8192 23.3397C10.2661 24.0584 7.4555 23.7317 5.55831 22.5121C4.69169 21.9458 3.2161 20.2471 3.2161 19.8115C3.2161 19.6809 3.12241 19.572 3.02872 19.572C2.77108 19.572 2.63055 18.6137 2.63055 16.5229C2.63055 14.9331 2.72424 14.4975 3.28637 13.4304C4.55116 11.0565 7.01048 9.68442 10.0085 9.7062C12.9597 9.72798 15.1145 10.7516 16.4964 12.7552C17.2693 13.8877 17.2928 13.9095 18.4405 13.9095C19.2368 13.9095 19.6116 13.8224 19.6116 13.6264C19.5881 12.9948 18.6278 11.4485 17.6207 10.4467C15.3019 8.13813 12.1868 7.20165 8.36896 7.659Z" fill="#FAFAFA"/>
+            <path d="M38.396 7.61532C35.1403 7.98556 32.3765 9.81497 30.9009 12.5591C30.0577 14.1925 30.0343 14.2578 30.0343 16.7406C30.0343 19.0927 30.0811 19.3323 30.7604 20.6608C32.6576 24.3196 36.0772 26.0837 40.8085 25.8223C42.0498 25.757 42.9399 25.6263 42.9867 25.4739C43.0336 25.3432 43.1741 25.2779 43.2912 25.3432C43.5957 25.5392 45.5163 24.6898 46.5937 23.884C47.718 23.0564 48.8891 21.619 48.8891 21.0528C48.8891 20.7261 48.7017 20.6608 47.8117 20.6608C46.8279 20.6608 46.5937 20.7697 45.3523 21.8586C43.7362 23.2307 42.3777 23.7098 39.9653 23.7098C38.3023 23.7098 36.9204 23.3613 35.5619 22.5773C35.0935 22.2942 34.625 22.1199 34.4845 22.1417C34.3674 22.1853 34.3205 22.1417 34.4142 22.0764C34.5079 21.9893 34.344 21.5973 34.0395 21.227C33.2197 20.2034 32.6576 19.1145 32.5639 18.3305C32.4936 17.7424 32.5639 17.6118 33.0089 17.5029C33.3134 17.4375 36.897 17.4157 40.9958 17.4375C45.0713 17.4811 48.4206 17.4593 48.4206 17.394C48.4206 17.3286 48.772 17.2851 49.1936 17.2851H49.9431L49.9196 15.9566C49.9196 15.2161 49.826 14.4321 49.7088 14.2143C49.6152 13.9965 49.4746 13.6045 49.4278 13.3867C49.2638 12.5591 48.0693 10.8168 47.109 9.9892C44.8839 8.09446 41.7922 7.24508 38.396 7.61532ZM42.8462 10.1199C44.8839 10.7297 47.4135 13.4738 47.2027 14.8459C47.1324 15.325 47.109 15.325 40.0355 15.3903C33.735 15.4339 32.9386 15.4121 32.7981 15.0854C32.5405 14.4538 33.1963 13.1036 34.2503 11.9928C36.4051 9.77142 39.4968 9.09628 42.8462 10.1199Z" fill="#FAFAFA"/>
+            <path d="M61.9588 7.50647C61.912 7.52825 61.303 7.61536 60.6003 7.6807C59.1482 7.81137 55.752 9.29232 55.8691 9.74968C55.8925 9.90213 55.8222 9.96746 55.7051 9.90213C55.143 9.57545 52.6837 13.1472 52.9647 13.8441C53.035 14.0183 53.0116 14.0836 52.8945 14.0183C52.5431 13.8441 52.3323 15.6953 52.4495 17.7207C52.5431 19.2016 52.6837 19.7897 53.2927 20.9439C54.3935 23.0129 56.7357 25.0166 58.3752 25.2997C58.6329 25.3432 59.0545 25.4739 59.3121 25.5828C59.5698 25.6917 60.8814 25.7788 62.2399 25.7788C64.5587 25.7788 64.7929 25.7353 66.2685 25.0601C67.2991 24.6028 68.1657 23.993 68.7278 23.3614C69.2197 22.8387 69.7115 22.4249 69.8521 22.4684C69.9692 22.512 70.1331 23.1654 70.2034 23.9494L70.3205 25.3432L71.4448 25.4086L72.5924 25.4739L72.4988 20.0728C72.4051 14.8241 72.1708 13.0383 71.5853 13.3867C71.4682 13.4521 71.4448 13.3649 71.515 13.1907C71.5853 13.0165 71.4916 12.7334 71.3277 12.5809C71.1637 12.4067 70.9997 12.1236 70.9529 11.9493C70.6718 10.7515 67.5567 8.48651 65.4019 7.92026C64.3479 7.63714 62.0994 7.3758 61.9588 7.50647ZM65.8 10.3595C66.6667 10.7079 67.5099 11.296 68.1188 11.9275C69.1728 13.0383 69.407 13.3214 69.4305 13.4738C69.4305 13.5392 69.571 13.9747 69.7115 14.4539C70.1331 15.8913 70.0394 18.0909 69.4773 19.5065C67.8612 23.492 62.2633 24.9948 58.0473 22.5773C57.5789 22.2942 57.1339 22.0982 57.0168 22.1418C56.9231 22.1635 56.8762 22.12 56.8997 22.0329C56.9231 21.924 56.5952 21.3795 56.197 20.7697C54.253 17.982 54.4872 14.3232 56.7357 11.9929C59.0311 9.64078 62.521 9.0092 65.8 10.3595Z" fill="#FAFAFA"/>
+            <path d="M130.89 7.63716C129.25 7.87673 127.892 8.44297 126.908 9.35768C126.041 10.1635 124.894 12.2542 125.128 12.6027C125.198 12.7116 125.151 12.8205 125.034 12.8205C124.847 12.8205 124.777 14.8459 124.777 19.1363V25.4521H125.924H127.095L127.166 19.3977C127.236 14.1708 127.306 13.2561 127.657 12.4938C128.196 11.4049 128.875 10.708 129.953 10.1853C131.382 9.51013 132.248 9.48835 134.848 10.0328C135.457 10.1635 136.745 11.5138 137.261 12.5591C137.752 13.5174 137.776 13.953 137.846 19.5283L137.916 25.4521H139.064H140.188L140.282 19.5066C140.376 12.8641 140.469 12.4067 142.179 10.8822C144.17 9.11811 147.894 9.3359 149.674 11.296C150.845 12.5591 151.009 13.6699 151.009 19.8332V25.4521H152.18H153.351L153.375 20.051C153.398 17.0891 153.375 14.5846 153.351 14.4539C153.328 14.345 153.281 13.8223 153.234 13.3214C153.117 12.08 152.204 10.2724 151.22 9.35768C149.838 8.07273 148.667 7.7025 145.856 7.7025C143.631 7.7025 143.28 7.76783 142.203 8.29052C140.961 8.90033 139.673 10.0764 139.415 10.8386C139.228 11.4267 138.97 11.4267 138.666 10.7951C137.565 8.53009 134.216 7.17981 130.89 7.63716Z" fill="#FAFAFA"/>
+            <path d="M164.126 7.74603C163.938 7.78959 163.61 7.89848 163.423 7.96381C163.236 8.02915 162.931 8.11626 162.767 8.15982C161.854 8.33405 160.284 9.29232 159.254 10.2941C157.404 12.1235 156.654 13.8223 156.584 16.3486C156.537 18.3087 156.818 19.4848 157.638 21.0528C158.411 22.5556 160.659 24.6899 161.245 24.4939C161.432 24.4285 161.526 24.4503 161.456 24.5374C161.268 24.8205 162.72 25.3868 164.336 25.6917C166.187 26.0184 169.044 25.8441 170.614 25.2779C172.3 24.6899 174.033 23.4485 174.876 22.2507C175.884 20.835 175.837 20.6608 174.455 20.6608C173.354 20.6608 173.213 20.7261 172.042 21.8151C171.223 22.5773 170.45 23.0565 169.747 23.2743C169.161 23.4267 168.623 23.6227 168.529 23.688C168.435 23.7752 167.428 23.7752 166.304 23.688C163.868 23.5356 162.322 22.904 161.034 21.5755C160.565 21.0964 160.12 20.7697 160.027 20.835C159.933 20.9221 159.91 20.8786 159.933 20.7697C159.98 20.639 159.793 19.9857 159.558 19.2887C159.254 18.4176 159.184 17.9167 159.324 17.6989C159.535 17.4158 160.589 17.3722 166.702 17.4158C175.673 17.4593 176.329 17.4593 176.586 17.2198C176.727 17.0891 176.703 16.3268 176.563 15.325C176.001 11.5573 173.471 8.83496 169.63 7.89848C168.506 7.61535 164.852 7.50646 164.126 7.74603ZM168.576 9.85856C168.904 9.88034 169.63 10.1417 170.215 10.4248C170.801 10.7079 171.269 10.9039 171.269 10.8604C171.269 10.8168 171.644 11.1217 172.089 11.5355C172.558 11.9493 172.886 12.3413 172.839 12.4285C172.792 12.5373 172.862 12.6027 172.979 12.6027C173.307 12.6027 174.103 14.9548 173.822 15.2161C173.588 15.4339 159.839 15.5646 159.441 15.325C159.207 15.1943 159.23 13.9094 159.465 13.9094C159.558 13.9094 159.746 13.6263 159.91 13.256C160.378 12.2324 162.463 10.5337 163.774 10.1417C165.648 9.57544 165.882 9.57544 168.576 9.85856Z" fill="#FAFAFA"/>
+            <path d="M216.708 7.96382C213.874 8.92208 212.118 10.3813 210.9 12.7987C210.221 14.1054 210.174 14.4321 210.174 16.5229C210.174 18.7878 210.338 19.8768 210.759 20.3559C210.876 20.4866 210.9 20.6608 210.806 20.7261C210.736 20.8133 210.783 20.8786 210.947 20.8786C211.111 20.8786 211.181 20.9657 211.111 21.0746C210.9 21.4013 212.516 23.2743 213.757 24.1454C215.537 25.4086 216.966 25.7788 219.87 25.7788C222.189 25.7788 222.423 25.7353 223.922 25.0601C224.93 24.581 225.796 23.993 226.358 23.3614C226.85 22.8387 227.342 22.4249 227.483 22.4684C227.6 22.512 227.764 23.1654 227.834 23.9494L227.951 25.3432L229.075 25.4086L230.176 25.4739V20.6173C230.176 17.9385 230.059 15.325 229.919 14.8023C229.567 13.3214 228.537 11.5573 227.366 10.4248C226.382 9.46655 224.485 8.26872 223.805 8.15983C223.641 8.13805 223.337 8.02915 223.15 7.92026C222.962 7.81137 221.697 7.68069 220.339 7.63714C218.442 7.59358 217.622 7.68069 216.708 7.96382ZM222.096 9.88034C224.04 10.3595 226.358 12.0147 226.78 13.2343C226.85 13.4956 227.014 13.6916 227.108 13.6916C227.202 13.6916 227.295 13.8223 227.295 13.953C227.319 14.1054 227.412 14.8023 227.529 15.4993C227.67 16.218 227.67 17.1762 227.576 17.786C227.459 18.3523 227.342 19.0056 227.319 19.2452C227.272 19.4848 227.202 19.7243 227.108 19.7897C227.038 19.855 226.757 20.2688 226.452 20.7044C226.171 21.1399 225.632 21.7497 225.258 22.0329C224.883 22.3378 224.649 22.6427 224.742 22.7298C224.836 22.8169 224.813 22.8387 224.672 22.8169C224.555 22.7733 223.829 22.9694 223.103 23.2307C221.276 23.8623 218.98 23.9058 217.317 23.3178C216.615 23.0565 215.959 22.904 215.842 22.9694C215.725 23.0347 215.678 23.0129 215.701 22.904C215.748 22.7951 215.397 22.4031 214.928 22.0329C213.828 21.1182 212.938 19.5283 212.633 17.9385C212.399 16.6971 212.399 16.414 212.75 14.8895C213.172 13.06 214.999 10.9693 216.779 10.2724C218.418 9.64078 220.456 9.48833 222.096 9.88034Z" fill="#FAFAFA"/>
+            <path d="M76.4335 8.18167C76.1992 8.42124 76.2929 17.9821 76.574 19.3542C77.2298 22.7081 79.6657 25.0166 83.2961 25.6918C85.6383 26.1056 90.112 25.6482 90.112 24.9731C90.112 24.8642 90.2057 24.8206 90.3228 24.886C90.6038 25.0602 92.2434 23.9059 93.0866 22.9476C93.4847 22.4903 94.0703 21.4231 94.3748 20.5738C94.8666 19.1364 94.9135 18.679 94.9135 13.5828V8.13812L93.6955 8.07278L92.501 8.00744L92.4073 13.6264L92.3371 19.2453L91.6812 20.4866C90.5336 22.6863 88.5895 23.7099 85.6618 23.7099C82.734 23.7099 80.79 22.6863 79.6423 20.4866L78.9865 19.2453L78.9162 13.6264L78.8459 8.02922H77.7217C77.1127 8.02922 76.5272 8.09456 76.4335 8.18167Z" fill="#FAFAFA"/>
+            <path d="M98.2862 8.07279C98.0988 8.63904 98.2628 9.20528 98.942 10.5991C99.4105 11.5138 99.8321 12.3196 99.9258 12.385C99.996 12.4503 100.113 12.6899 100.137 12.9294C100.183 13.169 100.464 13.8006 100.769 14.3451C101.073 14.8895 101.659 16.0874 102.081 17.0021C102.502 17.9168 102.947 18.6137 103.064 18.5484C103.205 18.483 103.228 18.5266 103.135 18.6572C102.994 18.875 105.57 24.6028 106.086 25.1909C106.39 25.5175 109.014 25.4958 109.271 25.1473C109.482 24.8206 114.494 14.5193 114.565 14.2362C114.611 14.1055 115.174 12.9512 115.829 11.6445C116.509 10.3596 116.977 9.20528 116.907 9.09639C116.837 8.9875 116.907 8.90038 117.024 8.90038C117.164 8.90038 117.282 8.70437 117.282 8.44303C117.282 8.05101 117.164 8.00745 116.064 8.07279L114.822 8.13812L111.426 15.3251C109.271 19.8769 107.913 22.5121 107.702 22.5121C107.491 22.5121 106.882 21.5103 106.179 20.0075C105.547 18.6355 104.915 17.4376 104.798 17.3723C104.68 17.307 104.61 17.1763 104.634 17.0892C104.727 16.8496 103.392 14.0402 103.135 13.8659C102.994 13.7788 102.947 13.6917 103.041 13.6917C103.205 13.6917 100.98 8.76971 100.582 8.29058C100.394 8.07279 98.3565 7.87678 98.2862 8.07279Z" fill="#FAFAFA"/>
+            <path d="M203.756 16.6753L203.826 25.3433H204.997H206.168V16.7407V8.13808L204.927 8.07274L203.709 8.0074L203.756 16.6753Z" fill="#FAFAFA"/>
+            </svg></a></li>
+          <li class="position-relative "><a
+              class="fs-sm fw-normal lh-24 ff-Montserrat text-lightwhite nav-line home nav-line-1 " href="">Home</a>
+          </li>
+          <li class="position-relative "><a
+              class="fs-sm fw-normal lh-24 ff-Montserrat text-lightwhite nav-line about nav-line-1" href="">About</a>
+          </li>
+          <li class="position-relative "><a
+              class="fs-sm fw-normal lh-24 ff-Montserrat text-lightwhite nav-lines services nav-line-1"
+              href="">Services</a></li>
+          <li class="position-relative "><a
+              class="fs-sm fw-normal lh-24 ff-Montserrat text-lightwhite nav-linep pricing nav-line-1"
+              href="">Pricing</a></li>
+          <li class="position-relative "><a
+              class="fs-sm fw-normal lh-24 ff-Montserrat text-lightwhite nav-linef faq nav-line-1" href="">FAQ</a></li>
+
+        </ul>
+        <button class="fs-sm fw-normal lh-24 ff-Montserrat text-lightwhite nav-login-btn login nav-box">Login</button>
+      </div>
+    </div>
+  </nav>
+
+  <!------------------------------------ hero-section  ------------------------------------>
+  <section class="bg-lightblack1 bg-img d-flex flex-column justify-content-center align-items-center position-relative overflow-hidden">
+  <div class="container my-container">
+    <div class="hero-elipes-1"></div>
+    <h1 class="fs-lg1 fw-semibold text-lightwhite ff-Montserrat mx-802 text-center p-0 m-0 mx-auto">Our Agency Brings
+      Your Vision to Life</h1>
+      <img class="hero-img-1" src="./assets/images/hero-sec-img-1.png" alt="hero-img-1" >
+      <img class="hero-img-2" src="./assets/images/hero-sec-img-2.png" alt="hero-img-2" >
+      <img class="hero-img-3" src="./assets/images/hero-sec-img-3.png" alt="hero-img-3" >
+      <img class="hero-img-4" src="./assets/images/hero-sec-img-4.png" alt="hero-img-4" >
+    <img class="hero-img-5 d-none d-lg-block " src="./assets/images/hero-sec-img-5.png" alt="hero-img-5" >
+    <img class="hero-img-6 d-none d-lg-block " src="./assets/images/hero-sec-img-6.png" alt="hero-img-6" >
+    <img class="hero-img-7 d-none d-lg-block " src="./assets/images/hero-sec-img-7.png" alt="hero-img-7" >
+    <img class="hero-img-8 d-none d-lg-block " src="./assets/images/hero-sec-img-8.png" alt="hero-img-8" >
+    <p class="fs-sm fw-normal text-lightwhite1 ff-Montserrat mx-617 text-center p-0 m-0 pb-md-3 pb-2 pt-3 mx-auto">At Cleauv
+      Media, we
+      are all about creativity. Our team of experts specializes in delivering innovative
+      solutions that capture the essence of your brand and bring it to life in new and exciting ways.</p>
+    <div class="d-flex justify-content-center">
+      <button class="fs-sm fw-semibold text-lightwhite btn-contact mt-md-3 mt-2 mb-md-5 mb-2 text-center">Contact Us</button>
+    </div>
+  </div>
+</section>
+
+<!------------------------------------------ first-slider-section ------------------------------------------>
+<section class="bg-lightwhite2 py-md-5 py-2 overflow-hidden  ">
+  <div class="my-container-2">
+  <div class="slider-first d-flex align-items-center justify-content-center ">
+    <div class="me-3 mb-md-3 mb-2"><img src="./assets/images/slider-f-img-1.png" alt=""></div>
+    <div class="me-3 mb-md-3 mb-2"><img src="./assets/images/slider-f-img-2.png" alt=""></div>
+    <div class="me-3 mb-md-3 mb-2"><img src="./assets/images/slider-f-img-3.png" alt=""></div>
+  </div>
+  </div>
+</section>
+
+<!--------------------------------------- relevent work --------------------------------------->
+<section class="overflow-hidden position-relative">
+  <h2 class="fs-md1 fw-semibold ff-Montserrat text-lightblack2 text-center pt-md-5 pt-2">Relevant Works</h2>
+  <p class="fs-sm fw-normal ff-Montserrat text-lightblack4 text-center mx-697 mx-auto">Our team has successfully
+    collaborated with a diverse range of clients across various industries, providing
+    innovative solutions that address their unique challenges.</p>
+    <img src="./assets/images/relvent-sec-img-1.png" alt="" class="slider1-img-1 d-none d-lg-block ">  
+    <img src="./assets/images/relvent-sec-img-2.png" alt="" class="slider1-img-2 d-none d-lg-block "> 
+    <div class="">
+      <div class="slider1 d-none d-md-block  ">
+        <div class=" pt-3 mx-2">
+          <img src="./assets/images/slider-1-img-1.png" alt="" class="w-100">
+        </div>
+        <div class=" pt-3 mx-2">
+          <img src="./assets/images/slider-1-img-2.png" alt="" class="w-100">
+        </div>
+        <div class=" pt-3 mx-2">
+          <img src="./assets/images/slider-1-img-3.png" alt="" class="w-100 ">
+        </div>
+      </div>
+      <div class="row flex-column d-block d-md-none ">
+        <div class="col-12 pt-3">
+          <img src="./assets/images/slider-1-img-1.png" alt="" class="w-100">
+        </div>
+        <div class="col-12 pt-3">
+          <img src="./assets/images/slider-1-img-2.png" alt="" class="w-100 ">
+        </div>
+        <div class="col-12 pt-3">
+          <img src="./assets/images/slider-1-img-3.png" alt="" class="w-100">
+        </div>
+      </div>
+      <div class="d-flex justify-content-center mb-5 pt-5">
+        <button class="fs-sm fw-semibold ff-Montserrat text-lightblack2 price-sec-btn">Book a Call</button>
+      </div>
+    </div>
+</section>
+
+  <!-------------------------------------- service -------------------------------------->
+  <section class="bg-light-black3 py-md-5 py-2 position-relative overflow-hidden z-1">
+    <div class="container my-container">
+      <h2 class="fs-md1 fw-semibold ff-Montserrat text-lightwhite text-center pt-md-5 pt-2 p-0 mb-0 pb-md-4 pb-2 ">Services</h2>
+      <p class="fs-sm fw-normal ff-Montserrat text-gray1 text-center mx-504 mx-auto p-0 m-0 pb-md-5 pb-2">Exceptional services
+        that
+        redefine excellence, exceeding expectations every time.</p>
+      <div class="row p-4">
+        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 pb-md-4 pb-2">
+          <div class="fs-sm2 fw-semibold ff-Montserrat text-lightwhite4 service-sec-box text-center text-lg-start ">Trade show banners</div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 pb-md-4 pb-2">
+          <div class="fs-sm2 fw-semibold ff-Montserrat text-lightwhite4 service-sec-box text-center text-lg-start  ">Website</div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 pb-md-4 pb-2">
+          <div class="fs-sm2 fw-semibold ff-Montserrat text-lightwhite4 service-sec-box text-center text-lg-start">Slide decks</div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 pb-md-4 pb-2">
+          <div class="fs-sm2 fw-semibold ff-Montserrat text-lightwhite4 service-sec-box text-center text-lg-start">Mobile apps</div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 pb-md-4 pb-2">
+          <div class="fs-sm2 fw-semibold ff-Montserrat text-lightwhite4 service-sec-box text-center text-lg-start">Logos & branding</div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 pb-md-4 pb-2">
+          <div class="fs-sm2 fw-semibold ff-Montserrat text-lightwhite4 service-sec-box text-center text-lg-start">Infographics</div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 pb-md-4 pb-2">
+          <div class="fs-sm2 fw-semibold ff-Montserrat text-lightwhite4 service-sec-box text-center text-lg-start">Resumes</div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 pb-md-4 pb-2">
+          <div class="fs-sm2 fw-semibold ff-Montserrat text-lightwhite4 service-sec-box text-center text-lg-start">Design systems</div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 pb-md-4 pb-2">
+          <div class="fs-sm2 fw-semibold ff-Montserrat text-lightwhite4 service-sec-box text-center text-lg-start">Email graphics</div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 pb-md-4 pb-2">
+          <div class="fs-sm2 fw-semibold ff-Montserrat text-lightwhite4 service-sec-box text-center text-lg-start">Direct mail</div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 pb-md-4 pb-2">
+          <div class="fs-sm2 fw-semibold ff-Montserrat text-lightwhite4 service-sec-box text-center text-lg-start">Brochures</div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 pb-md-4 pb-2">
+          <div class="fs-sm2 fw-semibold ff-Montserrat text-lightwhite4 service-sec-box text-center text-lg-start">Business cards</div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 pb-md-4 pb-2">
+          <div class="fs-sm2 fw-semibold ff-Montserrat text-lightwhite4 service-sec-box text-center text-lg-start">Packaging</div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 pb-md-4 pb-2">
+          <div class="fs-sm2 fw-semibold ff-Montserrat text-lightwhite4 service-sec-box text-center text-lg-start">Wireframes</div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 pb-md-4 pb-2">
+          <div class="fs-sm2 fw-semibold ff-Montserrat text-lightwhite4 service-sec-box text-center text-lg-start">Signage</div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 pb-md-4 pb-2">
+          <div class="fs-sm2 fw-semibold ff-Montserrat text-lightwhite4 service-sec-box text-center text-lg-start">SAAS</div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 pb-md-4 pb-2">
+          <div class="fs-sm2 fw-semibold ff-Montserrat text-lightwhite4 service-sec-box text-center text-lg-start">Social media graphics</div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 pb-md-4 pb-2">
+          <div class="fs-sm2 fw-semibold ff-Montserrat text-lightwhite4 service-sec-box text-center text-lg-start">Blog graphics</div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 pb-md-4 pb-2">
+          <div class="fs-sm2 fw-semibold ff-Montserrat text-lightwhite4 service-sec-box text-center text-lg-start">Stationery</div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 pb-md-4 pb-2">
+          <div class="fs-sm2 fw-semibold ff-Montserrat text-lightwhite4 service-sec-box text-center text-lg-start">Brand guides</div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 pb-md-4 pb-2">
+          <div class="fs-sm2 fw-semibold ff-Montserrat text-lightwhite4 service-sec-box text-center text-lg-start">Pitch decks</div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 pb-md-4 pb-2">
+          <div class="fs-sm2 fw-semibold ff-Montserrat text-lightwhite4 service-sec-box text-center text-lg-start">Digital ads</div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 pb-md-4 pb-2">
+          <div class="fs-sm2 fw-semibold ff-Montserrat text-lightwhite4 service-sec-box text-center text-lg-start">Billboards</div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 pb-md-4 pb-2">
+          <div class="fs-sm2 fw-semibold ff-Montserrat text-lightwhite4 service-sec-box text-center text-lg-start">Icons</div>
+        </div>
+      </div>
+    </div>
+    <img class="service-sec-1" src="./assets/images/service-sec-img-1.png" alt="">
+    <img class="service-sec-2" src="./assets/images/service-sec-img-2.png" alt="">
+    <img class="service-sec-3" src="./assets/images/service-sec-img-3.png" alt="">
+    <img class="service-sec-4" src="./assets/images/service-sec-img-4.png" alt="">
+    <span class="service-elips-1"></span>
+    <span class="service-elips-2"></span>
+  </section>
+
+  <!------------------------------------- pricing-plan section ------------------------------------->
+  <section class="bg-lightwhite2 py-md-5 py-2 pt-md-5 pt-2 pb-md-5 pb-2">
+    <div class="container my-container">
+      <h2 class="mb-0 fs-md1 fw-semibold ff-Montserrat text-lightblack2 text-center">Pricing Plans</h2>
+      <p class="mb-0 fs-sm fw-normal lh-150 ff-Montserrat text-gray text-center pb-md-5 pb-2">We offer flexible and
+        competitive pricing plans to suit your specific needs. </p>
+      <div class="row pb-md-5 pb-2 align-items-center justify-content-center">
+        <div class="col-lg-4 col-md-6 col-sm-12 pt-md-2 pt-5 d-flex flex-column align-items-center align-items-lg-start   ">
+          <div class="pricing-sec-crd position-relative">
+            <button class="price-sec-uppar-btn fs-sm1 fw-semibold ff-raleway price-sec-btn-fixed text-lightblack2 pt-3">Most
+              Popular</button>
+            <p class="mb-0 fs-md  fw-semibold ff-Montserrat text-lightblack2 text-center pb-md-3 pb-2">Monthly</p>
+            <p class="mb-0 fs-lg fw-medium ff-Montserrat text-lightblack2 text-center pb-2">
+              $1990<span class="fs-md fw-semibold ff-Montserrat text-lightblack2">/month</span></p>
+            <p class="mb-0 fs-sm1 fw-normal ff-Montserrat text-lightblack2 text-center lh-150 pb-md-4 pb-2 border-b-line">
+              Cancel
+              anytime</p>
+            <div class="d-flex align-items-center pt-3">
+              <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                  <path
+                    d="M6.75003 15.315L2.09253 10.6575L4.21503 8.535L6.75003 11.0775L14.16 3.66L16.2825 5.7825L6.75003 15.315Z"
+                    fill="#3C3C3C" />
+                </svg>
+              </span>
+              <p class="mb-0 fs-sm1 fw-normal lh-150 ff-Montserrat text-lightblack2 ">Unlimited requests
+              </p>
+            </div>
+            <div class="d-flex align-items-center pt-3">
+              <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                  <path
+                    d="M6.75003 15.315L2.09253 10.6575L4.21503 8.535L6.75003 11.0775L14.16 3.66L16.2825 5.7825L6.75003 15.315Z"
+                    fill="#3C3C3C" />
+                </svg>
+              </span>
+              <p class="mb-0 fs-sm1 fw-normal lh-150 ff-Montserrat text-lightblack2 ">Unlimited brands
+              </p>
+            </div>
+            <div class="d-flex align-items-center pt-3">
+              <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                  <path
+                    d="M6.75003 15.315L2.09253 10.6575L4.21503 8.535L6.75003 11.0775L14.16 3.66L16.2825 5.7825L6.75003 15.315Z"
+                    fill="#3C3C3C" />
+                </svg>
+              </span>
+              <p class="mb-0 fs-sm1 fw-normal lh-150 ff-Montserrat text-lightblack2 ">Full ownership of
+                design
+              </p>
+            </div>
+            <div class="d-flex align-items-center pt-3">
+              <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                  <path
+                    d="M6.75003 15.315L2.09253 10.6575L4.21503 8.535L6.75003 11.0775L14.16 3.66L16.2825 5.7825L6.75003 15.315Z"
+                    fill="#3C3C3C" />
+                </svg>
+              </span>
+              <p class="mb-0 fs-sm1 fw-normal lh-150 ff-Montserrat text-lightblack2 ">Pause or cancel
+                anytime
+              </p>
+            </div>
+            <div class="text-center pt-md-5 pt-2"><button class="price-sec-btn bg-transparent fs-sm fw-semibold ff-Montserrat">Get
+                Started</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 pt-md-2 pt-5 d-flex flex-column align-items-center align-items-lg-start   ">
+          <div class="pricing-sec-crd position-relative">
+            <button class="price-sec-uppar-btn fs-md fw-semibold ff-raleway price-sec-btn-fixed text-lightblack2">Paid
+              Quarterly</button>
+            <p class="mb-0 fs-md fw-semibold ff-Montserrat text-lightblack2 text-center pb-md-3 pb-2">Quarterly</p>
+            <p class="mb-0 fs-lg fw-medium ff-Montserrat text-lightblack2 text-center pb-2">
+              $1740<span class="fs-md fw-semibold ff-Montserrat text-lightblack2">/month</span></p>
+            <p class="mb-0 fs-sm1 fw-normal ff-Montserrat text-lightblack2 text-center lh-150 pb-md-4 pb-2 border-b-line">
+              Save $250 per month</p>
+            <div class="d-flex align-items-center pt-3">
+              <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                  <path
+                    d="M6.75003 15.315L2.09253 10.6575L4.21503 8.535L6.75003 11.0775L14.16 3.66L16.2825 5.7825L6.75003 15.315Z"
+                    fill="#3C3C3C" />
+                </svg>
+              </span>
+              <p class="mb-0 fs-sm1 fw-normal lh-150 ff-Montserrat text-lightblack2 ">Unlimited requests
+              </p>
+            </div>
+            <div class="d-flex align-items-center pt-3">
+              <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                  <path
+                    d="M6.75003 15.315L2.09253 10.6575L4.21503 8.535L6.75003 11.0775L14.16 3.66L16.2825 5.7825L6.75003 15.315Z"
+                    fill="#3C3C3C" />
+                </svg>
+              </span>
+              <p class="mb-0 fs-sm1 fw-normal lh-150 ff-Montserrat text-lightblack2 ">Unlimited brands
+              </p>
+            </div>
+            <div class="d-flex align-items-center pt-3">
+              <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                  <path
+                    d="M6.75003 15.315L2.09253 10.6575L4.21503 8.535L6.75003 11.0775L14.16 3.66L16.2825 5.7825L6.75003 15.315Z"
+                    fill="#3C3C3C" />
+                </svg>
+              </span>
+              <p class="mb-0 fs-sm1 fw-normal lh-150 ff-Montserrat text-lightblack2 ">Full ownership of
+                design
+              </p>
+            </div>
+
+            <div class="text-center pt-md-5 pt-2"><button
+                class="mt-md-5 mt-2 price-sec-btn bg-transparent fs-sm fw-semibold ff-Montserrat">Get
+                Started</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 pt-lg-2 pt-5 d-flex flex-column align-items-center align-items-lg-start   ">
+          <div class="pricing-sec-crd position-relative">
+            <button class="price-sec-uppar-btn fs-sm1 fw-semibold ff-raleway price-sec-btn-fixed text-lightblack2">One
+              Time Payment</button>
+            <p class="mb-0 fs-md fw-semibold ff-Montserrat text-lightblack2 text-center pb-md-3 pb-2">Individual
+              Project</p>
+            <p class="mb-0 fs-lg fw-medium ff-Montserrat text-lightblack2 text-center pb-2">
+              Contact Us</p>
+            <p class="mb-0 fs-sm1 fw-normal ff-Montserrat text-lightblack2 text-center lh-150 pb-md-4 pb-2 border-b-line">
+              Price depending on scale</p>
+            <div class="d-flex align-items-center pt-3">
+              <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                  <path
+                    d="M6.75003 15.315L2.09253 10.6575L4.21503 8.535L6.75003 11.0775L14.16 3.66L16.2825 5.7825L6.75003 15.315Z"
+                    fill="#3C3C3C" />
+                </svg>
+              </span>
+              <p class="mb-0 fs-sm1 fw-normal lh-150 ff-Montserrat text-lightblack2 ">Brand identity
+              </p>
+            </div>
+            <div class="d-flex align-items-center pt-3">
+              <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                  <path
+                    d="M6.75003 15.315L2.09253 10.6575L4.21503 8.535L6.75003 11.0775L14.16 3.66L16.2825 5.7825L6.75003 15.315Z"
+                    fill="#3C3C3C" />
+                </svg>
+              </span>
+              <p class="mb-0 fs-sm1 fw-normal lh-150 ff-Montserrat text-lightblack2 ">Digital advertisement
+              </p>
+            </div>
+            <div class="d-flex align-items-center pt-3">
+              <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                  <path
+                    d="M6.75003 15.315L2.09253 10.6575L4.21503 8.535L6.75003 11.0775L14.16 3.66L16.2825 5.7825L6.75003 15.315Z"
+                    fill="#3C3C3C" />
+                </svg>
+              </span>
+              <p class="mb-0 fs-sm1 fw-normal lh-150 ff-Montserrat text-lightblack2 ">Web and Mobile design
+              </p>
+            </div>
+            <div class="d-flex align-items-center pt-3">
+              <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                  <path
+                    d="M6.75003 15.315L2.09253 10.6575L4.21503 8.535L6.75003 11.0775L14.16 3.66L16.2825 5.7825L6.75003 15.315Z"
+                    fill="#3C3C3C" />
+                </svg>
+              </span>
+              <p class="mb-0 fs-sm1  fw-normal lh-150 ff-Montserrat text-lightblack2 ">Social media campaign
+              </p>
+            </div>
+            <div class="text-center pt-md-5 pt-2"><button class="price-sec-btn bg-transparent fs-sm fw-semibold ff-Montserrat">Get
+                Started</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row py-md-5 py-2">
+        <div class="col-lg-6 col-md-12  br-line">
+          <div class="text-center"><img class="price-img1" src="./assets/images/pricing-sec-img-1.png" alt="Mobile"></div>
+          <p class="mb-0 fs-md1 fw-semibold ff-Montserrat text-lightblack2 text-center pb-md-3 pb-2">Book a Call</p>
+          <p class="mb-0 fs-sm fw-normal lh-150 ff-Montserrat text-gray text-center mx-460 mx-auto pb-md-3 pb-2">
+            Learn
+            more about how
+            Cleauv media works and how it can help you.</p>
+          <div class="text-center "><button class="price-sec-commonBtn fs-sm fw-semibold ff-Montserrat">Book a
+              Call</button></div>
+        </div>
+        <div class="col-lg-6 col-md-12">
+          <div class="text-center pb-2"><img class="pb-1" src="./assets/images/pricing-sec-img-2.png" alt="sec-img-girl">
+          </div>
+          <p class="mb-0 fs-md1 fw-semibold ff-Montserrat text-lightblack2 text-center pb-md-3 pb-2">Refer a friend &
+            earn
+          </p>
+          <p class="mb-0 fs-sm fw-normal lh-150 ff-Montserrat text-gray text-center mx-350 mx-auto pb-md-3 pb-2">Earn
+            5%
+            monthly recurring commissions for each referral.</p>
+          <div class="text-center "><button class="price-sec-commonBtn fs-sm fw-semibold ff-Montserrat">Join
+              Now</button></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!------------------------------------------- webflow section ------------------------------------------->
+  <section class="bg-light-black3 py-md-5 py-2 position-relative overflow-hidden">
+    <div class="containermy-container2">
+      <div class="webflow-elipes-1"></div>
+      <div class="webflow-elipes-2"></div>
+      
+      <div class="d-flex justify-content-center">
+        <button class="fs-sm1 fw-semibold ff-raleway webflow-sec-add-btn text-lightwhite mt-md-5 mt-2">Add On</button>
+      </div>
+      <h2 class="fs-md1 fw-semibold ff-Montserrat text-lightwhite text-center p-0 m-0 pt-md-3 pt-2">Webflow development</h2>
+      <p class="fs-sm fw-normal text-gray1 ff-Montserrat text-center p-0 m-0 pt-3">Get a better website faster with
+        Webflow
+        development. Requires a design subscription.</p>
+      <p class="fs-md1 fw-semibold ff-Montserrat text-yellow text-center pt-3">$999/m</p>
+      <img class="webflow-sec-img-1 d-none d-lg-block " src="./assets/images/webflow-sec-img-1.png" alt="" >
+      <img class="webflow-sec-img-2 d-none d-lg-block " src="./assets/images/webflow-sec-img-2.png" alt="" >
+    </div>
+  </section>
+
+  <!----------------------------------------- What Our Customer Say  ----------------------------------------->
+  <section class="overflow-hidden py-md-5 py-2 ">
+    <h2 class="fs-md1 fw-semibold ff-Montserrat text-lightblack2 text-center pt-md-5 pt-2">What Our Customer Say</h2>
+    <p class="fs-sm fw-normal ff-Montserrat text-lightblack4 text-center">We offer flexible and competitive pricing plans
+      to suit your specific needs. </p>
+    <div class="slider-2 py-md-5 py-2">
+      <div class="slider-2crd d-flex flex-column flex-sm-row gap-5 mx-4">
+        <div class="d-flex flex-column justify-content-center">
+          <img class="w-100" src="./assets/images/whats-sec-girl-img-1.png" alt="">
+        </div>
+        <div>
+          <p class="fs-md fw-semibold ff-Montserrat text-lightblack2 p-0 m-0">Arlene McCoy</p>
+          <p class="fs-sm fw-normal text-gray5 ff-Montserrat ">CEO of Mind.ly</p>
+          <p class="fs-sm fw-normal text-gray2 ff-Montserrat mx-344">Contrary to popular belief, Lorem Ipsum is not
+            simply random text. It has roots in a piece of classical
+            Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at
+            Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem
+            Ipsum passage, and going</p>
+        </div>
+      </div>
+      <div class="slider-2crd d-flex flex-column flex-sm-row gap-5 mx-4">
+        <div class="d-flex flex-column justify-content-center">
+          <img class="w-100" src="./assets/images/whats-sec-girl-img-2.png" alt="girl-img-slider2">
+        </div>
+        <div>
+          <p class="fs-md fw-semibold ff-Montserrat text-lightblack2 p-0 m-0">Arlene McCoy</p>
+          <p class="fs-sm fw-normal text-gray5 ff-Montserrat ">CEO of Mind.ly</p>
+          <p class="fs-sm fw-normal text-gray2 ff-Montserrat mx-344">Contrary to popular belief, Lorem Ipsum is not
+            simply random text. It has roots in a piece of classical
+            Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at
+            Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem
+            Ipsum passage, and going</p>
+        </div>
+      </div>
+      <div class="slider-2crd d-flex flex-column flex-sm-row gap-5 mx-4">
+        <div class="d-flex flex-column justify-content-center">
+          <img class="w-100" src="./assets/images/whats-sec-girl-img-1.png" alt="girl-img-slider1">
+        </div>
+        <div>
+          <p class="fs-md fw-semibold ff-Montserrat text-lightblack2 p-0 m-0">Arlene McCoy</p>
+          <p class="fs-sm fw-normal text-gray5 ff-Montserrat ">CEO of Mind.ly</p>
+          <p class="fs-sm fw-normal text-gray2 ff-Montserrat mx-344">Contrary to popular belief, Lorem Ipsum is not
+            simply random text. It has roots in a piece of classical
+            Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at
+            Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem
+            Ipsum passage, and going</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!---------------------------------- accordion-section  ---------------------------------->
+  <section class="bg-lightwhite3 py-md-5 py-2 position-relative ">
+    <div class="container mx-880">
+      <h2 class="fs-md1 fw-semibold ff-Montserrat text-lightblack2 text-center pb-md-5 pb-2">Frequently Asked Questions</h2>
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item ">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button fs-sm1 fw-semibold ff-Montserrat text-lightblack2" type="button"
+              data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Q1. What does “unlimited requests” mean?
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body fs-sm fw-normal ff-Montserrat text-lightblack4 mx-840">
+              At Cleauv Media Inc, we pride ourselves on our holistic approach to creative services and marketing. We
+              offer a comprehensive suite of services, including web build, branding, content creation, paid
+              advertising,
+              and business automation. Our team of experts combines creativity with strategic thinking to deliver
+              tailored
+              solutions that drive results for our clients.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed fs-sm1 fw-semibold ff-Montserrat text-lightblack2" type="button"
+              data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Q2. What makes your creative studio/marketing agency unique?
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body fs-sm fw-normal ff-Montserrat text-lightblack4 mx-840">
+              At Cleauv Media Inc, we pride ourselves on our holistic approach to creative services and marketing. We
+              offer a comprehensive suite of services, including web build, branding, content creation, paid
+              advertising,
+              and business automation. Our team of experts combines creativity with strategic thinking to deliver
+              tailored
+              solutions that drive results for our clients.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed fs-sm1 fw-semibold ff-Montserrat text-lightblack2" type="button"
+              data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+              aria-controls="collapseThree">
+              Q3. Can you handle projects of different sizes?
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body fs-sm fw-normal ff-Montserrat text-lightblack4 mx-840">
+              At Cleauv Media Inc, we pride ourselves on our holistic approach to creative services and marketing. We
+              offer a comprehensive suite of services, including web build, branding, content creation, paid
+              advertising,
+              and business automation. Our team of experts combines creativity with strategic thinking to deliver
+              tailored
+              solutions that drive results for our clients.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingfour">
+            <button class="accordion-button collapsed fs-sm1 fw-semibold ff-Montserrat text-lightblack2" type="button"
+              data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="false"
+              aria-controls="collapsefour">
+              Q4. How do you ensure the quality of your work?
+            </button>
+          </h2>
+          <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingfour"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body fs-sm fw-normal ff-Montserrat text-lightblack4 mx-840">
+              At Cleauv Media Inc, we pride ourselves on our holistic approach to creative services and marketing. We
+              offer a comprehensive suite of services, including web build, branding, content creation, paid
+              advertising,
+              and business automation. Our team of experts combines creativity with strategic thinking to deliver
+              tailored
+              solutions that drive results for our clients.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingfive">
+            <button class="accordion-button collapsed fs-sm1 fw-semibold ff-Montserrat text-lightblack2" type="button"
+              data-bs-toggle="collapse" data-bs-target="#collapsefive" aria-expanded="false"
+              aria-controls="collapsefive">
+              Q5. How do I get started with your services?
+            </button>
+          </h2>
+          <div id="collapsefive" class="accordion-collapse collapse" aria-labelledby="headingfive"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body fs-sm fw-normal ff-Montserrat text-lightblack4 mx-840">
+              At Cleauv Media Inc, we pride ourselves on our holistic approach to creative services and marketing. We
+              offer a comprehensive suite of services, including web build, branding, content creation, paid
+              advertising,
+              and business automation. Our team of experts combines creativity with strategic thinking to deliver
+              tailored
+              solutions that drive results for our clients.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingsix">
+            <button class="accordion-button collapsed fs-sm1 fw-semibold ff-Montserrat text-lightblack2" type="button"
+              data-bs-toggle="collapse" data-bs-target="#collapsesix" aria-expanded="false" aria-controls="collapsesix">
+              Q6. How does your business model work?
+            </button>
+          </h2>
+          <div id="collapsesix" class="accordion-collapse collapse" aria-labelledby="headingsix"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body fs-sm fw-normal ff-Montserrat text-lightblack4 mx-840">
+              At Cleauv Media Inc, we pride ourselves on our holistic approach to creative services and marketing. We
+              offer a comprehensive suite of services, including web build, branding, content creation, paid
+              advertising,
+              and business automation. Our team of experts combines creativity with strategic thinking to deliver
+              tailored
+              solutions that drive results for our clients.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img class="acc-img-1 d-none d-lg-block " src="./assets/images/accordion-img.png" alt="">
+    <img class="acc-img-2 d-none d-lg-block " src="./assets/images/accordion-img-1.png" alt="">
+    <img class="acc-img-3 d-none d-lg-block " src="./assets/images/accordion-img-2.png" alt="">
+  </section>
+
+  <!-------------------------------------footer-section  ------------------------------------->
+  <footer class="bg-lightblack1 pt-md-5 pt-2 pb-md-3 pb-2 ">
+    <div class="container my-container">
+      <div class="row">
+        <div class="col-lg-5 col-md-12 col-12 pb-2">
+          <img class="mb-md-3 mb-2" src="./assets/images/footer-logo-img.png" alt="">
+          <p class="mb-0 fs-sm fw-normal lh-24 text-lightwhite opcity-7 pb-md-4 pb-2 mx-320">Ut ut at mus
+            facilisi semper at suscipit massa purus. Varius sed sollicitudin id
+            aliquam hac tortor maecenas purus semper.</p>
+          <div class="d-flex align-items-center gap-3 ">
+            <div class="footer-circle d-flex align-items-center justify-content-center ">
+              <a  href=""><svg xmlns="http://www.w3.org/2000/svg" width="20" height="18" viewBox="0 0 20 18"
+                  fill="none">
+                  <path
+                    d="M18.9407 2.82815C18.2317 3.14184 17.4797 3.34792 16.7097 3.43956C17.521 2.95372 18.128 2.18955 18.4176 1.2894C17.6557 1.74285 16.8203 2.06063 15.9506 2.23253C15.3658 1.60679 14.5906 1.1918 13.7456 1.05207C12.9006 0.912336 12.033 1.0557 11.2779 1.45986C10.5228 1.86403 9.92232 2.50635 9.5699 3.28698C9.21748 4.06761 9.13284 4.9428 9.32914 5.77649C7.78382 5.69917 6.27205 5.2977 4.89198 4.59814C3.51191 3.89858 2.29441 2.91658 1.31853 1.7159C0.973139 2.30915 0.791634 2.98353 0.792605 3.67C0.792605 5.01734 1.47928 6.20764 2.52091 6.90453C1.90394 6.88508 1.30055 6.71846 0.761012 6.41856V6.46595C0.760984 7.36344 1.0714 8.23331 1.6396 8.92802C2.2078 9.62273 2.99881 10.0995 3.87847 10.2775C3.30575 10.4329 2.70516 10.4558 2.12229 10.3444C2.37031 11.1169 2.85376 11.7925 3.50493 12.2766C4.15609 12.7606 4.94236 13.0289 5.75359 13.0437C4.94738 13.6769 4.02425 14.145 3.03699 14.4212C2.04974 14.6973 1.01774 14.7761 0 14.6531C1.77637 15.7954 3.84418 16.4019 5.95615 16.4C13.1054 16.4 17.0136 10.4782 17.0136 5.34256C17.0136 5.1753 17.0099 5.00619 17.0024 4.83986C17.7629 4.29011 18.4193 3.60827 18.9407 2.82815Z"
+                    fill="#FAFAFA" />
+                </svg></a>
+            </div>
+            <div class="footer-circle d-flex align-items-center justify-content-center ">
+              <a class="" href=""><svg width="19" height="19" viewBox="0 0 19 19" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M11.0833 10.6874H13.0625L13.8541 7.52075H11.0833V5.93742C11.0833 5.122 11.0833 4.35409 12.6666 4.35409H13.8541V1.69409C13.596 1.66004 12.6215 1.58325 11.5923 1.58325C9.44296 1.58325 7.91663 2.89504 7.91663 5.30409V7.52075H5.54163V10.6874H7.91663V17.4166H11.0833V10.6874Z"
+                    fill="#FAFAFA" />
+                </svg>
+              </a>
+            </div>
+            <div class="footer-circle d-flex align-items-center justify-content-center ">
+              <a class="" href=""><svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17"
+                  fill="none">
+                  <path
+                    d="M9.37381 0.0010458C9.99405 -0.00133431 10.6143 0.00489948 11.2344 0.0197452L11.3993 0.025695C11.5896 0.0324948 11.7775 0.0409945 12.0044 0.0511941C12.9088 0.0936927 13.5258 0.236488 14.0673 0.446431C14.6282 0.662323 15.1008 0.954713 15.5734 1.4273C16.0055 1.85195 16.3399 2.36562 16.5534 2.9326C16.7633 3.47403 16.9061 4.09196 16.9486 4.99633C16.9588 5.22242 16.9673 5.41111 16.9741 5.60151L16.9792 5.7664C16.9943 6.38619 17.0008 7.00616 16.9988 7.62614L16.9996 8.26021V9.37368C17.0017 9.99393 16.9952 10.6142 16.9801 11.2343L16.975 11.3992C16.9682 11.5896 16.9597 11.7774 16.9495 12.0043C16.907 12.9087 16.7625 13.5258 16.5534 14.0672C16.3406 14.6348 16.0061 15.1489 15.5734 15.5734C15.1484 16.0054 14.6345 16.3398 14.0673 16.5534C13.5258 16.7633 12.9088 16.9061 12.0044 16.9486C11.7775 16.9588 11.5896 16.9673 11.3993 16.9741L11.2344 16.9792C10.6143 16.9943 9.99405 17.0008 9.37381 16.9988L8.73974 16.9996H7.62715C7.0069 17.0017 6.38666 16.9952 5.76659 16.9801L5.6017 16.975C5.39993 16.9677 5.1982 16.9592 4.99653 16.9495C4.09218 16.907 3.47511 16.7625 2.93284 16.5534C2.36565 16.3403 1.8519 16.0059 1.42757 15.5734C0.994978 15.1486 0.660247 14.6346 0.446718 14.0672C0.236778 13.5258 0.0939856 12.9087 0.0514878 12.0043C0.0420217 11.8027 0.0335221 11.6009 0.0259891 11.3992L0.0217394 11.2343C0.00606927 10.6142 -0.00101446 9.99394 0.000490425 9.37368V7.62614C-0.00188177 7.00617 0.0043519 6.3862 0.0191895 5.7664L0.0251392 5.60151C0.0319388 5.41111 0.0404384 5.22242 0.0506379 4.99633C0.0931357 4.09111 0.235928 3.47488 0.445867 2.9326C0.659523 2.36534 0.994909 1.85181 1.42842 1.42815C1.85246 0.995301 2.36589 0.66026 2.93284 0.446431C3.47511 0.236488 4.09133 0.0936927 4.99653 0.0511941L5.6017 0.025695L5.76659 0.0214453C6.38637 0.00578267 7.00633 -0.00130118 7.6263 0.000195891L9.37381 0.0010458ZM8.50005 4.2509C7.93696 4.24294 7.3779 4.34697 6.85537 4.55695C6.33283 4.76693 5.85724 5.07867 5.45623 5.47406C5.05522 5.86944 4.73679 6.34059 4.51944 6.86011C4.3021 7.37963 4.19017 7.93718 4.19017 8.50033C4.19017 9.06349 4.3021 9.62103 4.51944 10.1406C4.73679 10.6601 5.05522 11.1312 5.45623 11.5266C5.85724 11.922 6.33283 12.2337 6.85537 12.4437C7.3779 12.6537 7.93696 12.7577 8.50005 12.7498C9.62717 12.7498 10.7081 12.302 11.5051 11.505C12.3021 10.708 12.7498 9.62704 12.7498 8.49991C12.7498 7.37277 12.3021 6.29181 11.5051 5.4948C10.7081 4.6978 9.62717 4.2509 8.50005 4.2509ZM8.50005 5.95084C8.83877 5.9446 9.17533 6.00592 9.49008 6.13121C9.80483 6.25651 10.0915 6.44327 10.3332 6.68058C10.575 6.9179 10.767 7.20101 10.8982 7.51338C11.0293 7.82575 11.0968 8.16112 11.0969 8.4999C11.097 8.83868 11.0295 9.17407 10.8985 9.48648C10.7675 9.7989 10.5755 10.0821 10.3338 10.3195C10.0921 10.5569 9.80558 10.7437 9.49087 10.8691C9.17616 10.9945 8.83962 11.0559 8.5009 11.0498C7.82464 11.0498 7.17607 10.7812 6.69787 10.303C6.21968 9.82477 5.95103 9.17619 5.95103 8.49991C5.95103 7.82363 6.21968 7.17505 6.69787 6.69685C7.17607 6.21864 7.82464 5.94999 8.5009 5.94999L8.50005 5.95084ZM12.9623 2.97594C12.6881 2.98692 12.4288 3.10357 12.2387 3.30146C12.0485 3.49935 11.9424 3.76313 11.9424 4.03756C11.9424 4.31198 12.0485 4.57577 12.2387 4.77366C12.4288 4.97155 12.6881 5.0882 12.9623 5.09917C13.2441 5.09917 13.5143 4.98723 13.7136 4.78798C13.9128 4.58873 14.0248 4.31849 14.0248 4.03671C14.0248 3.75493 13.9128 3.48468 13.7136 3.28543C13.5143 3.08618 13.2441 2.97424 12.9623 2.97424V2.97594Z"
+                    fill="#FAFAFA" />
+                </svg></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-7 col-md-12 col-12">
+          <div class="row">
+            <div class="col-4">
+              <ul>
+                <li class="mb-md-3 mb-2"><a class="fs-sm fw-normal lh-24 text-lightwhite ff-Montserrat" href="">Quick Links</a>
+                </li>
+                <li class="mb-2"><a class="fs-sm fw-normal lh-24 text-lightwhite ff-Montserrat" href="">Home</a></li>
+                <li class="mb-2"><a class="fs-sm fw-normal lh-24 text-lightwhite ff-Montserrat" href="">About</a></li>
+                <li class="mb-2"><a class="fs-sm fw-normal lh-24 text-lightwhite ff-Montserrat" href="">Pricing</a></li>
+                <li class="mb-2"><a class="fs-sm fw-normal lh-24 text-lightwhite ff-Montserrat" href="">Service</a></li>
+                <li class="mb-2"><a class="fs-sm fw-normal lh-24 text-lightwhite ff-Montserrat" href="">FAQ</a></li>
+              </ul>
+            </div>
+            <div class="col-4 d-flex flex-column align-items-center  align-items-md-start  ">
+              <ul>
+                <li class="mb-md-3 mb-2"><a class="fs-sm fw-normal lh-24 text-lightwhite ff-Montserrat" href="">Company</a></li>
+                <li class="mb-2"><a class="fs-sm fw-normal lh-24 text-lightwhite ff-Montserrat" href="">Careers</a></li>
+                <li class="mb-2"><a class="fs-sm fw-normal lh-24 text-lightwhite ff-Montserrat" href="">Security</a>
+                </li>
+                <li class="mb-2"><a class="fs-sm fw-normal lh-24 text-lightwhite ff-Montserrat" href="">Legal</a></li>
+              </ul>
+            </div>
+            <div class="col-md-4 col-sm-12 col-12">
+              <ul>
+                <li class="mb-md-3 mb-2"><a class="fs-sm fw-normal lh-24 text-lightwhite ff-Montserrat" href="">Contact us</a>
+                </li>
+                <li class="mb-2"><a class="fs-sm fw-normal lh-24 text-lightwhite ff-Montserrat" href="">info@cleauv
+                    media.</a></li>
+
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <hr class="footer-last-line">
+    <p class="mb-0 fs-sm fw-normal lh-24 text-lightwhite ff-Montserrat text-center">Copyright@Cleauvmedia.2023</p>
+  </footer>
+<!--  -->
+  <div id="backtotop">
+    <svg height="75" width="75" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+      version="1.1" x="0px" y="0px" viewBox="0 0 90 112.5" enable-background="new 0 0 90 90" xml:space="preserve">
+      <path
+        d="M18.391,39.638c-4.207,4.219-1.926,11.768,5.34,11.773l42.635,0.02c7.266,0.006,9.553-7.545,5.35-11.768L54.078,21.962  c-6.016-6.041-11.879-5.678-17.994-0.041L18.391,39.638z" />
+      <path
+        d="M16.809,66.724v-2.189c0-4.17,3.354-7.529,7.52-7.529h41.443c4.166,0,7.521,3.359,7.521,7.529v2.189  c0,4.172-3.355,7.529-7.521,7.529H24.328C20.162,74.253,16.809,70.896,16.809,66.724z" />
+    </svg>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+  integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+  integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="./assets/js/app.js"></script>
+
+  <!-- preloader -->
+  <script>
+    setTimeout(function () {
+      once: true,
+        $('.loader_bg').fadeToggle();
+    }, 1700);
+  </script>
+  <script>      
+$('.slider1').slick({
+      infinite: true,
+      autoplay: true,
+      centerMode:true,
+      centerPadding:"260px",
+      speed: 300,
+      slidesToShow: 1,
+      slidesToScroll: 1,      
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {   
+            infinite: true,
+      autoplay: true,
+    
+      centerPadding:"150px",         
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            infinite: true,
+            dots: false,
+          }
+        },
+
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+          }
+
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+          }
+        },
+      ]
+    }
+    );
+  </script>
+
+  <script>
+     $('.slider-2').slick({
+      infinite: true,
+      autoplay: true,
+      speed: 300,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      arrows: false,
+      dots: true,
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            infinite: true,
+            dots: true,
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+          }
+        },
+      ]
+    }
+    );
+  </script>
+  <script>
+
+$('.slider-first').slick({
+  dots: true,
+  infinite: true,
+  speed: 300,
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  responsive: [
+  {
+      breakpoint: 9999,
+      settings:"unslick"
+    },
+    {
+      breakpoint: 1040,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
+				
+  </script>
+</body>
+
+</html

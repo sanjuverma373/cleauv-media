@@ -370,6 +370,11 @@ ul {
     border: 1px solid rgba(0, 0, 0, 0.40);
     padding: 14px 32px;
     background-color: transparent;
+    transition: .4s;
+}
+.price-sec-commonBtn:hover {
+    border: 1px solid #000;
+    box-shadow: 10px 10px 0px 0px #000;
 }
 
 .br-line {

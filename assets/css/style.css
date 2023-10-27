@@ -626,11 +626,11 @@ ul {
     .nav-line::after {
         content: "";
         position: absolute;
-        width: 250px;
+        width: 300px;
         height: 1px;
         background: #fafafa;
         bottom: -80%;
-        left: -203%;
+        left: -355%;
         opacity: 0.2;
 
     }
@@ -638,11 +638,11 @@ ul {
     .nav-lines::after {
         content: "";
         position: absolute;
-        width: 250px;
+        width: 300px;
         height: 1px;
         background: #fafafa;
         bottom: -80%;
-        left: -145%;
+        left: -260%;
         opacity: 0.2;
 
     }
@@ -650,11 +650,11 @@ ul {
     .nav-linep::after {
         content: "";
         position: absolute;
-        width: 250px;
+        width: 300px;
         height: 1px;
         background: #fafafa;
         bottom: -80%;
-        left: -175%;
+        left: -300%;
         opacity: 0.2;
 
     }
@@ -662,11 +662,11 @@ ul {
     .nav-linef::after {
         content: "";
         position: absolute;
-        width: 250px;
+        width: 300px;
         height: 1px;
         background: #fafafa;
         bottom: -80%;
-        left: -312%;
+        left: -510%;
         opacity: 0.2;
 
     }

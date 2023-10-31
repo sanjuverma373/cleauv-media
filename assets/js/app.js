@@ -60,8 +60,8 @@ faq.addEventListener("click", function () {
 
 // backToTop
 let backToTop = document.getElementById('backtotop')
- backToTop.addEventListener("click", function () {
- window.scrollTo(0, 0)
+backToTop.addEventListener("click", function () {
+    window.scrollTo(0, 0)
 });
 window.addEventListener('scroll', function () {
     if (window.scrollY > 500) {
@@ -73,3 +73,11 @@ window.addEventListener('scroll', function () {
     }
 });
 
+
+// priloder
+const preloader = document.getElementById("preloader")
+setTimeout(() => {
+    document.getElementById("preloader").classList.add("d-none")
+    document.body.classList.remove("flow-hidden")
+
+}, 2000)
